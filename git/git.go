@@ -8,7 +8,6 @@ package git
 import (
 	"fmt"
 	"github.com/pravj/metro/git/parser"
-	"os"
 	"os/exec"
 )
 
@@ -26,7 +25,14 @@ func init() {
 func GitInit() (err error) {
 	args := []string{"init"}
 
-	return exec.Command(mainCmd, args...).Run()
+	cmdErr := exec.Command(mainCmd, args...).Run()
+	if cmdErr == nil {
+		// this commit will go into the master branch
+		//GitCommit("Initial Commit")
+		fmt.Println("Initial Commit")
+	}
+
+	return cmdErr
 }
 
 // GitRenameBranch renames a given branch
@@ -42,7 +48,7 @@ func GitCommit(message string) (err error, hash string) {
 	cmdOutput, cmdErr = exec.Command(mainCmd, args...).Output()
 
 	if cmdErr != nil {
-		return cmdErr, nil
+		return cmdErr, ""
 	} else {
 		return parser.CommitHash(string(cmdOutput))
 	}

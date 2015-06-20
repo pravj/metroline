@@ -10,26 +10,29 @@ import "github.com/pravj/metro/controller"
 type stationStore struct {
   Name string `json:"name"`
   Stations []int `json:"stations"`
+	Leader bool `json:"leader"`
 }
 
 // mapStationData returns a map from string(station) to int(index of stations)
-func mapStationData(mapFile string) map[string][]int {
+func mapStationData(mapFile string) (map[string][]int, map[string]bool) {
   mapData, err := ioutil.ReadFile(mapFile)
 
 	var storage []stationStore
 	inventory := make(map[string][]int)
+	constraints := make(map[string]bool)
 
 	if err == nil {
 		errNew := json.Unmarshal(mapData, &storage)
 		if errNew == nil {
 
 		  for _, entity := range storage {
+				constraints[entity.Name] = entity.Leader
 		    for _, entityStation := range entity.Stations {
 		      inventory[entity.Name] = append(inventory[entity.Name], entityStation)
 		    }
 		  }
 
-			return inventory
+			return inventory, constraints
 		} else {
 			panic(errNew)
 		}
@@ -47,10 +50,10 @@ func Construct(stationFile, mapFile string) {
 
     errNew := json.Unmarshal(stationData, &stations)
     if errNew == nil {
-			inventory := mapStationData(mapFile)
+			inventory, constraints := mapStationData(mapFile)
 
 			// controller takes over the construction here
-	    controller.New(stations, inventory).Control()
+	    controller.New(stations, inventory, constraints).Control()
     } else {
       panic(errNew)
     }

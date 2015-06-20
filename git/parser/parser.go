@@ -3,7 +3,6 @@
 package parser
 
 import (
-  "fmt"
   "regexp"
 )
 
@@ -24,6 +23,6 @@ func CommitHash(output string) (err error, hash string) {
 
     return nil, r.FindString(output)
   } else {
-    return err, nil
+    return err, ""
   }
 }
