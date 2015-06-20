@@ -1,0 +1,728 @@
+[
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Adarsh Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "AIIMS"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Akshardham"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Anand Vihar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Arjan Garh"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "two",
+  "name": "Ashok Park Main",
+  "branches": {
+    "a": "Green Line Branch"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Azadpur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Badarpur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Barakhambha Road"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Botanical Garden"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "fwc",
+  "name": "Central Secretariat",
+  "branches": {
+    "a": "Yellow Line",
+    "b": "Violet Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Chandni Chowk"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Chhatarpur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Chawri Bazar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Civil Lines"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Delhi Aerocity"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dhaula Kuan"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dilshad Garden"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Morh"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 10"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 11"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 12"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 13"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 14"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "two",
+  "name": "Dwarka Sector 21",
+  "branches": {
+    "a": "Orange Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 8"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Dwarka Sector 9"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Ghitorni"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Govind Puri"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Green Park"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "GTB Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Guru Dronacharya"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Hauz Khas"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "HUDA City Centre"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "IFFCO Chowk"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "INA"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "twi",
+  "name": "Inderlok",
+  "branches": {
+    "a": "Red Line",
+    "b": "Green Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Indira Gandhi International Airport"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Indraprastha"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jahangirpuri"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Janakpuri East"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Janakpuri West"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jasola Apollo"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jawaharlal Nehru Stadium"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jhandewalan"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jhilmil"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Jor Bagh"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Kailash Colony"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Kalkaji Mandir"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Kanhiya Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Karkarduma"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Karol Bagh"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "fwc",
+  "name": "Kashmere Gate",
+  "branches": {
+    "a": "Red Line",
+    "b": "Yellow Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Kaushambi"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Keshav Puram"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Khan Market"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "twi",
+  "name": "Kirti Nagar†",
+  "branches": {
+    "a": "Blue Line",
+    "b": "Green Line Branch"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Kohat Enclave"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Lajpat Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Laxmi Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Lodhi Colony"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Madipur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Malviya Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "two",
+  "name": "Mandi House",
+  "branches": {
+    "a": "Violet Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Mansarovar Park"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Mayur Vihar -I"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Mayur Vihar Extension"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "MG Road"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Model Town"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Mohan Estate"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Moolchand"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Moti Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Mundka"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Nangloi"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Nangloi Railway station"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Nawada"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Nehru Place"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Netaji Subhash Place"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "New Ashok Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "twi",
+  "name": "New Delhi",
+  "branches": {
+    "a": "Yellow Line",
+    "b": "Orange Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Nirman Vihar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Noida City Centre"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Noida Golf Course"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Noida Sector 15"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Noida Sector 16"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Noida Sector 18"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Okhla"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Paschim Vihar East"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Paschim Vihar West"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Patel Chowk"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Patel Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Peera Garhi"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Pitam Pura"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Pragati Maidan"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Pratap Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Preet Vihar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Pul Bangash"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Punjabi Bagh East"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Qutab Minar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Race Course"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rajdhani Park"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rajendra Place"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "fwc",
+  "name": "Rajiv Chowk",
+  "branches": {
+    "a": "Blue Line",
+    "b": "Yellow Line"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rajouri Garden"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Ramakrishna Ashram Marg"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Ramesh Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rithala"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rohini East"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Rohini West"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Saket"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Sarita Vihar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Satguru Ramsingh Marg"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Seelampur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shadipur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shahdara"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shastri Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shastri Park"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shivaji Park"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Shivaji Stadium"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Sikandarpur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Subhash Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Sultanpur"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Surajmal Stadium"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Tagore Garden"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Tilak Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Tis Hazari"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Tughlakabad"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Udyog Bhawan"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Udyog Nagar"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Uttam Nagar East"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Uttam Nagar West"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Vaishali"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Vidhan Sabha"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Vishwa Vidyalaya"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Welcome"
+ },
+ {
+  "class": "mw-redirect",
+  "type": "two",
+  "name": "Yamuna Bank",
+  "branches": {
+    "a": "Blue Line Branch"
+  }
+ },
+ {
+  "class": "mw-redirect",
+  "type": "simple",
+  "name": "Janpath"
+ }
+]
