@@ -1,10 +1,10 @@
-// Package metro
-package metro
+// Package metroline
+package metroline
 
 import "io/ioutil"
 import "encoding/json"
-import "github.com/pravj/metro/station"
-import "github.com/pravj/metro/controller"
+import "github.com/pravj/metroline/station"
+import "github.com/pravj/metroline/controller"
 
 // stations, branch storage as a struct to unmarshal json
 type stationStore struct {

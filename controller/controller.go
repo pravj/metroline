@@ -5,9 +5,9 @@ package controller
 import (
   "fmt"
   "math/rand"
-  "github.com/pravj/metro/station"
-  "github.com/pravj/metro/branch"
-  "github.com/pravj/metro/git"
+  "github.com/pravj/metroline/station"
+  "github.com/pravj/metroline/branch"
+  "github.com/pravj/metroline/git"
 )
 
 // Controller struct with its required fields
@@ -22,24 +22,23 @@ type Controller struct {
 
   IsStarted bool
   IsEnded bool
+
+  Messenger chan string
 }
 
 // New returns a new controller instance
 func New(stations []station.Station, inventory map[string][]int, constraints map[string]bool) *Controller {
-  return &Controller{Stations: stations, Inventory: inventory, Constraints: constraints, BranchManager: make(map[string]*branch.Branch), IsStarted: false, IsEnded: false}
+  return &Controller{Stations: stations, Inventory: inventory, Constraints: constraints, BranchManager: make(map[string]*branch.Branch), Messenger: make(chan string)}
 }
 
 // Control takes over the construction here
 func (c *Controller) Control() {
   c.collectBranches()
   git.GitInit()
+  c.monitor()
 
   branchName := c.getLeaderBranch()
   c.setupBranch(branchName)
-
-  for _, index := range c.Inventory[c.CurrentBranch.Name] {
-    fmt.Println(c.Stations[index])
-  }
 }
 
 // collectBranch creates a slice of all the branches(lines) in the network
@@ -51,7 +50,9 @@ func (c *Controller) collectBranches() {
 
 // setupBranch sets a branch to work on
 func (c *Controller) setupBranch(branchName string) {
-  newBranch := branch.New(branchName, c.Inventory[branchName], &c.Stations)
+  fmt.Printf("setting up branch %v\n", branchName)
+
+  newBranch := branch.New(branchName, c.Inventory[branchName], &c.Stations, c.Messenger)
 
   c.BranchManager[branchName] = newBranch
   c.CurrentBranch = newBranch
@@ -71,4 +72,14 @@ func (c *Controller) getLeaderBranch() string {
   }
 }
 
-// branch manager : name to branch mapping
+// monitor keeps listening to the incoming messages through Messenger channel
+// and alter the working branches accordingly
+func (c *Controller) monitor() {
+  go func() {
+    for message := range c.Messenger {
+      fmt.Printf("new message %v\n", message)
+
+      //close(c.Messenger)
+    }
+  }()
+}

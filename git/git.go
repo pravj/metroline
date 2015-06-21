@@ -7,7 +7,7 @@ package git
 
 import (
 	"fmt"
-	"github.com/pravj/metro/git/parser"
+	"github.com/pravj/metroline/git/parser"
 	"os/exec"
 )
 
@@ -28,7 +28,7 @@ func GitInit() (err error) {
 	cmdErr := exec.Command(mainCmd, args...).Run()
 	if cmdErr == nil {
 		// this commit will go into the master branch
-		//GitCommit("Initial Commit")
+		GitCommit("Initial Commit")
 		fmt.Println("Initial Commit")
 	}
 
